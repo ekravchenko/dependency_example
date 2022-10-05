@@ -1,0 +1,16 @@
+[GLOBAL]
+pants_version = "2.13.0"
+backend_packages = [
+  "pants.backend.experimental.scala",
+]
+
+[source]
+root_patterns = [
+  "/src",
+]
+
+[scala.version_for_resolve]
+jvm-default = "2.13.8"
+
+[anonymous-telemetry]
+enabled = false
