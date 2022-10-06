@@ -1,5 +1,8 @@
 scala_sources(
-    sources=['**/*.scala']
+    sources=['**/*.scala'],
+    dependencies = [
+        "3rdparty/jvm/org/typelevel:cats-effect"
+    ]
 )
 
 deploy_jar(
