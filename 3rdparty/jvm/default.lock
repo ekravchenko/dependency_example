@@ -7,7 +7,7 @@
 #   "version": 1,
 #   "generated_with_requirements": [
 #     "org.scala-lang:scala-library:2.13.8,url=not_provided,jar=not_provided",
-#     "org.typelevel:cats-core_2.13:2.7.0,url=not_provided,jar=not_provided",
+#     "org.typelevel:cats-core_2.13:2.8.0,url=not_provided,jar=not_provided",
 #     "org.typelevel:cats-effect_2.13:3.3.14,url=not_provided,jar=not_provided"
 #   ]
 # }
@@ -27,7 +27,7 @@ packaging = "jar"
 fingerprint = "a0882b82514190c2bac7d1a459872a75f005fc0f3e88b2bc0390367146e35db7"
 serialized_bytes_length = 6003601
 [[entries]]
-file_name = "org.typelevel_cats-core_2.13_2.7.0.jar"
+file_name = "org.typelevel_cats-core_2.13_2.8.0.jar"
 [[entries.directDependencies]]
 group = "org.scala-lang"
 artifact = "scala-library"
@@ -37,13 +37,7 @@ packaging = "jar"
 [[entries.directDependencies]]
 group = "org.typelevel"
 artifact = "cats-kernel_2.13"
-version = "2.7.0"
-packaging = "jar"
-
-[[entries.directDependencies]]
-group = "org.typelevel"
-artifact = "simulacrum-scalafix-annotations_2.13"
-version = "0.5.4"
+version = "2.8.0"
 packaging = "jar"
 
 [[entries.dependencies]]
@@ -55,24 +49,18 @@ packaging = "jar"
 [[entries.dependencies]]
 group = "org.typelevel"
 artifact = "cats-kernel_2.13"
-version = "2.7.0"
-packaging = "jar"
-
-[[entries.dependencies]]
-group = "org.typelevel"
-artifact = "simulacrum-scalafix-annotations_2.13"
-version = "0.5.4"
+version = "2.8.0"
 packaging = "jar"
 
 
 [entries.coord]
 group = "org.typelevel"
 artifact = "cats-core_2.13"
-version = "2.7.0"
+version = "2.8.0"
 packaging = "jar"
 [entries.file_digest]
-fingerprint = "6e9beda24ff3546f844ea80cf7d1d5cfc6bde073d4896c02e253e54e6721d6b3"
-serialized_bytes_length = 6036651
+fingerprint = "3397b242771c80f02fbe5e684381c5da1532d9916e0fde583599fbb8141a146a"
+serialized_bytes_length = 6195597
 [[entries]]
 file_name = "org.typelevel_cats-effect-kernel_2.13_3.3.14.jar"
 [[entries.directDependencies]]
@@ -84,7 +72,7 @@ packaging = "jar"
 [[entries.directDependencies]]
 group = "org.typelevel"
 artifact = "cats-core_2.13"
-version = "2.7.0"
+version = "2.8.0"
 packaging = "jar"
 
 [[entries.dependencies]]
@@ -96,19 +84,7 @@ packaging = "jar"
 [[entries.dependencies]]
 group = "org.typelevel"
 artifact = "cats-core_2.13"
-version = "2.7.0"
-packaging = "jar"
-
-[[entries.dependencies]]
-group = "org.typelevel"
-artifact = "cats-kernel_2.13"
-version = "2.7.0"
-packaging = "jar"
-
-[[entries.dependencies]]
-group = "org.typelevel"
-artifact = "simulacrum-scalafix-annotations_2.13"
-version = "0.5.4"
+version = "2.8.0"
 packaging = "jar"
 
 
@@ -143,25 +119,13 @@ packaging = "jar"
 [[entries.dependencies]]
 group = "org.typelevel"
 artifact = "cats-core_2.13"
-version = "2.7.0"
+version = "2.8.0"
 packaging = "jar"
 
 [[entries.dependencies]]
 group = "org.typelevel"
 artifact = "cats-effect-kernel_2.13"
 version = "3.3.14"
-packaging = "jar"
-
-[[entries.dependencies]]
-group = "org.typelevel"
-artifact = "cats-kernel_2.13"
-version = "2.7.0"
-packaging = "jar"
-
-[[entries.dependencies]]
-group = "org.typelevel"
-artifact = "simulacrum-scalafix-annotations_2.13"
-version = "0.5.4"
 packaging = "jar"
 
 
@@ -202,7 +166,7 @@ packaging = "jar"
 [[entries.dependencies]]
 group = "org.typelevel"
 artifact = "cats-core_2.13"
-version = "2.7.0"
+version = "2.8.0"
 packaging = "jar"
 
 [[entries.dependencies]]
@@ -217,18 +181,6 @@ artifact = "cats-effect-std_2.13"
 version = "3.3.14"
 packaging = "jar"
 
-[[entries.dependencies]]
-group = "org.typelevel"
-artifact = "cats-kernel_2.13"
-version = "2.7.0"
-packaging = "jar"
-
-[[entries.dependencies]]
-group = "org.typelevel"
-artifact = "simulacrum-scalafix-annotations_2.13"
-version = "0.5.4"
-packaging = "jar"
-
 
 [entries.coord]
 group = "org.typelevel"
@@ -239,7 +191,7 @@ packaging = "jar"
 fingerprint = "3a1f1a0626ed6167b11a7c7186842a1da0afc4c6fc7ec43e4343376bbc2d534b"
 serialized_bytes_length = 428877
 [[entries]]
-file_name = "org.typelevel_cats-kernel_2.13_2.7.0.jar"
+file_name = "org.typelevel_cats-kernel_2.13_2.8.0.jar"
 [[entries.directDependencies]]
 group = "org.scala-lang"
 artifact = "scala-library"
@@ -256,31 +208,8 @@ packaging = "jar"
 [entries.coord]
 group = "org.typelevel"
 artifact = "cats-kernel_2.13"
-version = "2.7.0"
+version = "2.8.0"
 packaging = "jar"
 [entries.file_digest]
-fingerprint = "39e1303072a20b70bdbd044f93ecd7667a787bc14c23776e7bab2b3a250f5021"
-serialized_bytes_length = 5306931
-[[entries]]
-file_name = "org.typelevel_simulacrum-scalafix-annotations_2.13_0.5.4.jar"
-[[entries.directDependencies]]
-group = "org.scala-lang"
-artifact = "scala-library"
-version = "2.13.8"
-packaging = "jar"
-
-[[entries.dependencies]]
-group = "org.scala-lang"
-artifact = "scala-library"
-version = "2.13.8"
-packaging = "jar"
-
-
-[entries.coord]
-group = "org.typelevel"
-artifact = "simulacrum-scalafix-annotations_2.13"
-version = "0.5.4"
-packaging = "jar"
-[entries.file_digest]
-fingerprint = "0efeedbb2ab7ffe517a8a5279998a2a85e1eedc1a9374289c6104b49a98912e8"
-serialized_bytes_length = 7201
+fingerprint = "be38080c6af66465117db74804fb7dfcce3a7eac265c053332aa26f4e32175d2"
+serialized_bytes_length = 5339598
